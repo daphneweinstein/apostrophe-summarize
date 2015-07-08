@@ -1,0 +1,26 @@
+module: 
+ -create index.js that follows appropriate pattern
+ -create github repository where it will live
+ -npm linking (local version to use for dev/testing)
+ -test in sandbox
+-FUNCTIONALITY:
+	summary of entire page
+	summary of aposArea
+(done)	summary of text singletons <— start here?
+-adding methods to aposobject
+	methods make it possible to update fields of (apos)Area or page
+
+-simple pgs
+-fancy pages:custom code about how page loads
+
+
+next step: 
+	edited:modify snippet macros to add summary
+
+override snippet type {index or show page} copy index.html and show.html into lib/modules/articles/views and modify them (also possibly snippetmacros to render show page (maybe only modify this)
+
+(done)-update dependencies
+-github repo
+-write readme
+	how to add to project
+	how to update fields (also link to topliceanu)

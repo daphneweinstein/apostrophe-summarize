@@ -20,7 +20,9 @@ next step:
 override snippet type {index or show page} copy index.html and show.html into lib/modules/articles/views and modify them (also possibly snippetmacros to render show page (maybe only modify this)
 
 (done)-update dependencies
--github repo
--write readme
+(done 1st commit)-github repo
+-look into testing: apostrophe-pages is a good example
+-verify that this is all i need w/Tom
+-write readme/test importing it
 	how to add to project
 	how to update fields (also link to topliceanu)

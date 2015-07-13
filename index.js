@@ -11,6 +11,16 @@ function factory(options, callback) {
 function Construct(options, callback) {
   var self = this;
   self.apos = options.apos;
+
+  var superBeforePutPage = self.apos.beforePutPage;
+
+  self.apos.beforePutPage = function(req, page, callback) {
+    page.summary = self.summarizeArea(page, 'body', options.summarize);
+
+    superBeforePutPage(req, page, callback);
+  };
+
+
   //self.apos.getAreaPlaintext(page, name)//add from before
 
   self.summarizeArea = function(page, name, options, callback) {
@@ -18,6 +28,7 @@ function Construct(options, callback) {
   	return self.summarizeText(text, options, callback)
 
   }
+
 
   self.summarizeText = function(text, options, callback) {
   	

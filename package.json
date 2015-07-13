@@ -1,6 +1,6 @@
 {
   "name": "apostrophe-summarize",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a module that provides summarization functions for use by apostrophe projects",
   "main": "index.js",
   "dependencies": {
@@ -12,5 +12,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daphne Weinstein",
-  "license": "ISC"
+  "license": "BSD"
 }
